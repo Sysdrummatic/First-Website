@@ -14,7 +14,8 @@
 
 .search-bar {
     font-size: 20px;
-    margin-left: 12px;
+    display: block;
+    /* margin-left: 12px; */
 }
 
 .google-like-search-bar-object {
@@ -35,11 +36,34 @@
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
-.video-title {
+.video-container {
     width: 300px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    vertical-align: top;
+}
+
+.video-title {
+    margin-top: 0;
 }
 
 .video-author,
 .video-stats {
     display: block;
+}
+
+.channel-min {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.channel-pics {
+    width: 100%;
+}
+.video-details {
+    display: inline-block;
+    width: 200px;
 }
