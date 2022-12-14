@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>MyTube</title>
-        <link rel="stylesheet" href="youtube.css" />
+        <link rel="stylesheet" href="styles/general.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/video.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -14,9 +16,47 @@
         />
     </head>
     <body>
-        <!-- <div> -->
-        <input class="search-bar" type="text" placeholder="Szukaj" />
-        <!-- </div> -->
+        <div class="header">
+            <div class="left-section">
+                <img
+                    class="hamburger-menu"
+                    src="icons/hamburger-menu.svg"
+                    alt=""
+                />
+                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Szukaj" />
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg" alt="" />
+                </button>
+                <button class="voice-search-button">
+                    <img
+                        class="voice-search-icon"
+                        src="icons/voice-search-icon.svg"
+                        alt=""
+                    />
+                </button>
+            </div>
+            <div class="right-section">
+                <img class="upload-icon" src="icons/upload.svg" alt="" />
+                <img
+                    class="youtube-apps-icon"
+                    src="icons/youtube-apps.svg"
+                    alt=""
+                />
+                <img
+                    class="notification-icon"
+                    src="icons/notifications.svg"
+                    alt=""
+                />
+                <img
+                    class="current-user-picture"
+                    src="images/my-channel.jpeg"
+                    alt=""
+                />
+            </div>
+        </div>
 
         <div class="video-grid">
             <div class="video-preview">
